@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/api/new_user" method="post" enctype="multipart/form-data">
+        <div>
+            name : <input type="text" name="name" placeholder="enter the name">
+        </div>
+        <div>
+            userPic : <input type="file" name="user_pic">
+        </div>
+        <br>
+        <div>
+            aadhar : <input type="file" name="aadhar">
+        </div>
+        <br>
+        <div>
+            pan : <input type="file" name="pan">
+        </div>
+        <div>
+            email : <input type="email" name="email" placeholder="enter the email">
+        </div>
+        <div>
+            phone no : <input type="text" name="phone_no" placeholder="enter the phone_no">
+        </div>
+        <div>
+            username : <input type="text" name="username" placeholder="enter the username">
+        </div>
+        <div>
+            password : <input type="password" name="password" placeholder="enter the password">
+        </div>
+        <div>
+            bank_name : <input type="text" name="bank_name" placeholder="enter the bank_name">
+        </div>
+        <div>
+            bank_acc_no : <input type="text" name="bank_acc_no" placeholder="enter the bank_acc_no">
+        </div>
+        <div>
+            bank_ifsc : <input type="text" name="bank_ifsc" placeholder="enter the bank_ifsc">
+        </div>
+        <div>
+            bank_acc_holder_name : <input type="text" name="bank_acc_holder_name" placeholder="enter the bank_acc_holder_name">
+        </div>
+        <div>
+            reference : <input type="text" name="reference" placeholder="enter the reference">
+        </div>
+        <div style="width: 100px;">
+            <button style="margin: 10px 12px;" type="submit">Upload</button>
+        </div>
+    </form>
+</body>
+</html>
